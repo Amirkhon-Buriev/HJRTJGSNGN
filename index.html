@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="login-container" id="loginContainer">
+        <h2>Введите пароль</h2>
+        <input type="password" id="passwordInput" placeholder="Пароль">
+        <button id="loginBtn">Войти</button>
+        <p id="errorMsg" class="error"></p>
+    </div>
+
+    <div class="container" id="todoContainer" style="display: none;">
+        <header>
+            <h1>Добавить документ</h1>
+        </header>
+        <input type="text" id="taskInput" placeholder="Добавьте новую задачу...">
+        <button id="addTaskBtn">Добавить</button>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
